@@ -1,0 +1,33 @@
+body{
+
+    background-color: #81a189;
+
+}
+
+#score{
+
+font-size: 28px;
+float:left;
+margin-left: 9px;
+
+}
+
+#timer{
+
+font-size: 28px;
+float:right;
+margin-right: 20px;
+
+}
+
+#sketchdraw{
+
+color:#edfff2;
+
+}
+
+p{
+
+font-size:24px;
+
+}
