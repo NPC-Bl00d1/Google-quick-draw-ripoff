@@ -12,3 +12,29 @@ Element_of_array = quick_draw_data_set[random_no];
 console.log(Element_of_array);
 
 document.getElementById("sketchdraw").innerhtml = "Draw: " + Element_of_array;
+
+function preload(){
+
+//useless fr
+
+}
+
+function setup(){
+
+    canvas = createCanvas(300,300);
+    canvas.position(620, 350);
+    background("white");
+
+}
+
+function draw(){
+
+//also useless for now
+
+}
+
+function updateCanvas(){
+
+background("white");
+
+}
