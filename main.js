@@ -29,7 +29,16 @@ function setup(){
 
 function draw(){
 
-//also useless for now
+check_sketch()
+
+if(Element_of_array == drawn_sketch){
+
+answer_holder = "set";
+score = score + 1;
+
+document.getElementById("score").innerHTML = "Score: " + score;
+
+}
 
 }
 
