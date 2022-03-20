@@ -47,3 +47,25 @@ function updateCanvas(){
 background("white");
 
 }
+
+function check_sketch(){
+
+timer_counter = timer_counter + 1;
+document.getElementById("timer").innerHTML = "Timer: " + timer_counter;
+console.log(timer_counter);
+if(timer_counter > 500){
+
+timer_counter = 0;
+timer_check = "completed";
+
+}
+
+if(timer_check == "completed"){
+
+timer_check = "";
+answer_holder = "";
+updateCanvas();
+
+}
+
+}
